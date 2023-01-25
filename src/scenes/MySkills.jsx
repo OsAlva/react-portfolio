@@ -12,15 +12,15 @@ const MySkills = () => {
             {/*HEADER AND IMAGE SECTION*/}
             <div className="md:flex md:justify-between md:gap-16 mt-32">
                 <motion.div
-                className="md:w-1/3"
-                initial="hidden"
-                whileInView="visible"
-                viewport={{once:true, amount:0.5}}
-                transition={{duration: 0.5}}
-                variants={{
-                    hidden: {opacity:0, x: -50},
-                    visible: {opacity: 1 , x:0},
-                }}
+                    className="md:w-1/3"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{once:true, amount:0.5}}
+                    transition={{duration: 0.5}}
+                    variants={{
+                        hidden: {opacity:0, x: -50},
+                        visible: {opacity: 1 , x:0},
+                    }}
                 >
                     <p
                     className="font-playfair font-semibold text-4xl mb-5"
@@ -84,8 +84,7 @@ const MySkills = () => {
                     </div>
                     <p className="mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at orci consectetur mi pretium malesuada vel ac diam. Vivamus commodo orci ac cursus 
-                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui. Suspendisse eu libero commodo, finibus tellus vel, efficitur leo. Proin 
-                    tincidunt eget sem eget fringilla. Suspendisse ornare nibh id convallis dignissim. Etiam quis placerat leo.
+                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui.
                     </p>
                 </motion.div>
 
@@ -112,7 +111,7 @@ const MySkills = () => {
                     </div>
                     <p className="mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at orci consectetur mi pretium malesuada vel ac diam. Vivamus commodo orci ac cursus 
-                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui. Suspendisse eu libero commodo, finibus tellus vel, efficitur leo. 
+                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui.
                     </p>
                 </motion.div>
 
@@ -139,10 +138,7 @@ const MySkills = () => {
                     </div>
                     <p className="mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at orci consectetur mi pretium malesuada vel ac diam. Vivamus commodo orci ac cursus 
-                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui. Suspendisse eu libero commodo, finibus tellus vel, efficitur leo. Proin 
-                    tincidunt eget sem eget fringilla. Suspendisse ornare nibh id convallis dignissim. Etiam quis placerat leo. Mauris in diam sem. In nec urna ut ligula
-                     fringilla rutrum. Nullam ut odio vel urna vestibulum rutrum a sit amet velit. Suspendisse quis pellentesque tortor. Nam porta fringilla dui, in 
-                     molestie velit pulvinar nec. Nam feugiat convallis erat id rutrum.
+                    bibendum. Vestibulum ante dui, tempus eu velit eu, sodales vestibulum dui.
                     </p>
                 </motion.div>
             </div>
